@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+body{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+	
+}
+
+div{
+	 width: 300px;
+  padding: 20px;
+  background-color: #fff; /* White background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+img{
+    width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  color: #e74c3c; /* Red color for the price */
+  margin-bottom: 15px;
+}
+
+a {
+  font-size: 14px;
+  color: #777; /* Lighter text color */
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db; /* Blue button */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
